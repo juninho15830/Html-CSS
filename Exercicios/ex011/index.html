@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sequi quasi laborum perspiciatis aspernatur quos blanditiis ipsam. Similique quis a, laboriosam cupiditate omnis odio libero velit, quidem iste deserunt amet!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML.</p>
+    <audio src="midias/out-on-my-skateboard.mp3" autoplay controls></audio>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/break-your-lock-and-key.mp3" type="audio/mpeg">
+        <source src="midias/break-your-lock-and-key.ogg" type="audio/ogg">
+        <source src="midias/break-your-lock-and-key.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="midias/break-your-lock-and-key.mp3">Clique aqui para baixar o arquivo mp3.</a></p>
+    </audio>
+
+    <h1>Reproduzir Vídeos hospedados localmente</h1>
+    <p>Vamos aprender a reproduzir vídeos em HTML no meu própro servidor.</p>
+    <video controls width="350" poster="imagens/Sem título.png">
+        <source src="midias/pexels-neve.mp4" type="video/mp4">
+        <source src="midias/pexels-neve.ogv" type="video/ogg">
+        <source src="midias/pexels-neve.webm" type="vidoe/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídoes do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
