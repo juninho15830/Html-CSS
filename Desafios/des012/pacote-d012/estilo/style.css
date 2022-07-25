@@ -69,6 +69,14 @@ section.imagem {
     color: white;
 }
 
+section#imagem01 {
+    background-image: url(../imagens/background001.jpg);
+}
+
+section#imagem02 {
+    background-image: url(../imagens/background002.jpg);
+}
+
 section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.253);
