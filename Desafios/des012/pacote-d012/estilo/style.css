@@ -67,6 +67,10 @@ section.normal {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed; /*Deixa o fundo fixo fazendo um efeito paralax*/
+    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.404);
 }
 
 section#imagem01 {
@@ -79,14 +83,15 @@ section#imagem02 {
 
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.486);
     padding: 5px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: .9em;
+    font-size: .8em;
     padding: 10px;
 }
