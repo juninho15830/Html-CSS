@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /*Primeira configuração é deixar a tabela em posição relativa*/
         }
 
         caption {
@@ -33,15 +34,31 @@
 
         thead, tfoot {
             color: white;
-            background-color: grey;
+            background-color: rgb(58, 58, 58);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(58, 58, 58);
         }
 
         tbody > tr:nth-child(2n) {
             background-color: lightgrey;
         }
-
     </style>
 </head>
+ <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->    
 <body>
     <h1>Uso de tabelas grandes</h1>
 
@@ -170,16 +187,14 @@
             </tr>
         </tfoot>
     </table>
-    <!--
-        ANATOMIA PARA TABELAS GRANDES
-        TABLE
-            CAPTION
-            THEAD
-                TR, TD, TH
-            TBODY
-                TR, TD, TH
-            TFOOT
-                TR, TD, TH
-    -->    
+    <h1>Conteúdo</h1>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque magni dicta. Eius ratione ut hic, enim molestiae ipsa aut dolor ullam consequuntur dolorem, veniam minima dolores dignissimos, id inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quibusdam tempore vero eos doloremque quam suscipit? Dolor maiores sed, in quasi aperiam accusamus atque mollitia voluptatum et, omnis odit sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias minima, nobis non fugit eaque delectus itaque voluptatum! Voluptas dolore, amet obcaecati praesentium sunt alias quo at deserunt nulla. Qui.</p>
 </body>
 </html>
